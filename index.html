@@ -37,35 +37,35 @@
             <h2>Produtos em destaque</h2>
         </section>
 
-        <!-- Produtos -->
+        <!-- Seção de Produtos -->
         <section class="produtos" aria-label="Lista de produtos">
             <div class="card">
-                <img src="./img/image 27.png" alt="Banana" />
+                <img src="./img/image 27.png" alt="Bananas frescas" />
                 <h3>Banana</h3>
                 <p>R$ 8,00</p>
             </div>
             <div class="card">
-                <img src="./img/image 28.png" alt="Tomate" />
+                <img src="./img/image 28.png" alt="Tomates vermelhos" />
                 <h3>Tomate</h3>
                 <p>R$ 12,00</p>
             </div>
             <div class="card">
                 <img src="./img/image 30.png" alt="Nozes" />
                 <h3>Nozes</h3>
-                <p>R$ 22,00</p>
+                <p>R$ 11,00</p>
             </div>
             <div class="card">
-                <img src="./img/image.png" alt="Brócolis" />
+                <img src="./img/image 36.png" alt="Brócolis fresco" />
                 <h3>Brócolis</h3>
                 <p>R$ 15,00</p>
             </div>
             <div class="card">
                 <img src="./img/image 31.png" alt="Amêndoas" />
                 <h3>Amêndoas</h3>
-                <p>R$ 22,00</p>
+                <p>R$ 9,20</p>
             </div>
             <div class="card">
-                <img src="./img/image 32.png" alt="Abacate" />
+                <img src="./img/image 37.png" alt="Abacate maduro" />
                 <h3>Abacate</h3>
                 <p>R$ 8,70</p>
             </div>
@@ -79,10 +79,8 @@
             <div class="icon">📦 Embalagem Sustentável</div>
         </section>
 
-        <!-- Imagem ilustrativa -->
-        <section class="imagem-ilustrativa" aria-label="Imagem ilustrativa de alimentos naturais">
-            <img src="./img/image (1).png" alt="Alimentos naturais frescos sobre a mesa" />
-        </section>
+        <!-- Imagem ilustrativa em parallax -->
+        <section class="parallax-ilustrativa" aria-label="Imagem ilustrativa de alimentos naturais"></section>
 
         <!-- Contato -->
         <section class="contato" aria-label="Informações de contato">
@@ -94,40 +92,57 @@
 
         <!-- Depoimentos -->
         <section class="depoimentos" aria-label="Depoimentos de clientes">
-            <h2>Depoimentos</h2>
-            <article>
-                <p>
-                    <strong>Maria R. - São Paulo:</strong><br />
-                    "Os produtos do Sabor Natural são incríveis! Tudo sempre fresco, com ótimo sabor. A couve veio verdinha, parecia ter sido colhida na hora!"
-                </p>
-            </article>
-            <article>
-                <p>
-                    <strong>João L. - Belo Horizonte:</strong><br />
-                    "Além da qualidade dos produtos, fiquei impressionado com a entrega rápida e o cuidado com a embalagem. Virou meu site favorito para comprar alimentos naturais."
-                </p>
-            </article>
-            <article>
-                <p>
-                    <strong>Camila S. - Curitiba:</strong><br />
-                    "É uma delícia saber que estou consumindo alimentos saudáveis e com procedência confiável. O atendimento também é excelente!"
-                </p>
-            </article>
+            <h2>Depoimento do cliente</h2>
+            <div class="quadro-verde">
+                <div class="depoimento">
+                    <div class="item-depoimento">
+                        <img src="./img/image 34.png" alt="Depoimento de cliente 1">
+                        <article>
+                            <p>
+                                <strong>Maria R. - São Paulo:</strong><br />
+                                "Os produtos do Sabor Natural são incríveis! Tudo sempre fresco, com ótimo sabor. A couve veio verdinha, parecia ter sido colhida na hora!"
+                            </p>
+                        </article>
+                    </div>
+
+                    <div class="item-depoimento">
+                        <img src="./img/image 33.png" alt="Depoimento de cliente 2">
+                        <article>
+                            <p>
+                                <strong>João L. - Belo Horizonte:</strong><br />
+                                "Além da qualidade dos produtos, fiquei impressionado com a entrega rápida e o cuidado com a embalagem. Virou meu site favorito para comprar alimentos naturais."
+                            </p>
+                        </article>
+                    </div>
+
+                    <div class="item-depoimento">
+                        <img src="./img/image 35.png" alt="Depoimento de cliente 3">
+                        <article>
+                            <p>
+                                <strong>Camila S. - Curitiba:</strong><br />
+                                "É uma delícia saber que estou consumindo alimentos saudáveis e com procedência confiável. O atendimento também é excelente!"
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Rodapé -->
-        <footer>
-            <div class="container-grid">
-                <div>
-                    <p>&copy; 2025 Sabor Natural — Todos os direitos reservados</p>
-                    <p>Inscreva-se em nossa newsletter</p>
-                    <div>
-                        <a href="#">Instagram</a>
-                        <a href="#">Facebook</a>
-                        <a href="#">WhatsApp</a>
-                    </div>
+        <footer class="footer">
+            <div class="footer-overlay">
+                <div class="footer-content">
+                    <h3>Sabor Natural</h3>
+                    <p>Inscreva-se em nossa newsletter.</p>
+                    <ul class="footer-links">
+                        <li><a href="#instagram">Instagram</a></li>
+                        <li><a href="#whatsapp">WhatsApp</a></li>
+                        <li><a href="#facebook">Facebook</a></li>
+                    </ul>
                 </div>
-                <img src="./img/image (1).png" alt="Logo do Sabor Natural no rodapé" />
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Sabor Natural. Todos os direitos reservados.</p>
+                </div>
             </div>
         </footer>
     </main>
