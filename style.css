@@ -1,0 +1,196 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte personalizada */
+@font-face {
+    font-family: "Recursive";
+    src: url('./Fonts/Recursive-VariableFont_CASL-CRSV-MONO-slnt-wght.ttf') format('truetype');
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #2d6a4f;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+/* Container central */
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1b4332;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header img {
+    height: 160px;
+}
+
+/* Menu */
+.menu {
+    max-width: 700px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    margin-left: 15px;
+    font-size: 1rem;
+    color: #D9D9D9;
+    font-family: "Recursive", sans-serif;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+    transition: text-decoration-color 0.5s ease;
+}
+
+.menu a:hover {
+    text-decoration-color: #D9D9D9;
+}
+
+/* Banner */
+.banner {
+    background: url('./img/image 22.png') no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Introdução */
+.intro {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Botão */
+.btn {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1b4332;
+}
+
+/* Produtos */
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    margin: 40px 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.card p {
+    color: #2d6a4f;
+    font-weight: bold;
+}
+
+/* Sessões: Benefícios, Contato, Depoimentos */
+.beneficios,
+.contato,
+.depoimentos {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.beneficios h2,
+.contato h2,
+.depoimentos h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #40916c;
+}
+
+.icon {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+/* Rodapé */
+footer {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #1b4332;
+    margin: 0 5px;
+    font-weight: 600;
+}
+
+footer img {
+    height: 90px;
+    margin-top: 15px;
+}
+
+footer .container-grid {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
